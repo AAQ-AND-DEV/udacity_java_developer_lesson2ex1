@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * Controller for receiving requests.
  */
 @RequestMapping("/food")
-
+@Controller
 public class FoodController {
 
     private FoodService foodService;

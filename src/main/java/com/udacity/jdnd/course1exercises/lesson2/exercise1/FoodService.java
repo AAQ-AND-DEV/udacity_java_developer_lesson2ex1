@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 /**
  * Food Service that performs business logic operations regarding food
  */
-
+@Service
 public class FoodService {
     private FoodRepository foodRepository;
 

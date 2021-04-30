@@ -11,7 +11,7 @@ import java.util.Map;
 /**
  * Pretend repository implementation
  */
-
+@Repository
 public class FoodRepository {
     private Map<MealTime, List<FoodData>> foodDatabase = new EnumMap<>(MealTime.class);
 
